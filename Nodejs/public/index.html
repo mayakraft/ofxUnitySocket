@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Images over Socket.io</title>
+	</head>
+	<body>
+		<h2 style="padding:0px; text-align:center">Send:</h2>
+		<p align="center">
+			<input type="file" onchange="didSelectFile()"><br>
+			<img src="" height="200"><br>
+		</p>
+		<h2 style="padding:0px; text-align:center">Image over socket:</h2>
+		<p align="center">
+			<canvas id="canvas" width="640" height="640"></canvas>
+		</p>
+		
+		<script src="js/socket.io-1.4.5.js"></script>
+		<script src="client.js" type="text/javascript"></script>
+	</body>
+</html>
