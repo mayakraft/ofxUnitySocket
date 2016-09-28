@@ -1,5 +1,5 @@
 {
-	"name": "openFrameworks Unity Socket.io",
+	"name": "ofxUnitySocket",
 	"version": "1.0.0",
 	"description": "send data between openFrameworks and Unity",
 	"main": "server.js",
